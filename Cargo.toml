@@ -1,5 +1,5 @@
 [package]
-name = "docker_browser"
+name = "maxiv-docker-browser"
 version = "0.1.0"
 authors = ["AntoineDupre <antoine.dupre@maxiv.lu.se>"]
 edition = "2018"
@@ -16,4 +16,4 @@ skim = "0.6.8"
 buildflags = ["--release"]
 
 [package.metadata.rpm.targets]
-docker_browser = { path = "/usr/bin/docker_browser" }
+maxiv-docker-browser = { path = "/usr/bin/maxiv-docker-browser" }
