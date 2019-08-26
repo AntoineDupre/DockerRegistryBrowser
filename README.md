@@ -14,20 +14,14 @@ Simply with cargo:
 $ cargo build --release
 ```
 
-It prints the selected result in stdout. It can be used directly with docker like:
+## How to use it
+Pull from upstream
 ```bash
-$ docker_browser | xargs docker pull
+$ maxiv-docker-browser
 ```
-The previous command will display the docker catalog and allow you to select one of the docker image. Then is image is going to be pulled by docker
 
-
-It can also be used to run a containt
-
+Run the container in interactive mode (docker -it)
 ```bash
-function docker_run() {
-  local cid
-  cid=$(docker_browser | awk '{print $1}')
-
-  [ -n "$cid" ] && docker run -it  "$cid"
-}
+$ maxiv-docker-browser run
 ```
+
