@@ -3,7 +3,6 @@
 Tool to browse the maxiv docker registry.
 Demo: https://asciinema.org/a/FJBz87bL0ZXXQciLRSqk9ogwl
 
-[![demo](https://asciinema.org/a/FJBz87bL0ZXXQciLRSqk9ogwl](https://asciinema.org/a/FJBz87bL0ZXXQciLRSqk9ogwl)
 
 ## How to install
 Simply with cargo:
