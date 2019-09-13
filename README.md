@@ -1,4 +1,4 @@
-# maxiv_docker_browser
+# Docker registry browser
 
 Tool to browse the maxiv docker registry
 
