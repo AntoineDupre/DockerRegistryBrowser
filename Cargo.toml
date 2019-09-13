@@ -1,9 +1,9 @@
 [package]
-name = "maxiv-docker-browser"
+name = "docker-browser"
 version = "0.1.0"
 authors = ["AntoineDupre <antoine.dupre@maxiv.lu.se>"]
 edition = "2018"
-description = "Maxiv docker registry browser"
+description = A docker registry browser"
 license = "GPL3"
 CargoLicense = "GPL3"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
@@ -17,4 +17,4 @@ argparse = "0.2.2"
 buildflags = ["--release"]
 
 [package.metadata.rpm.targets]
-maxiv-docker-browser = { path = "/usr/bin/maxiv-docker-browser" }
+docker-browser = { path = "/usr/bin/docker-browser" }
