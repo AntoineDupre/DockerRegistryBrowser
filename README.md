@@ -27,3 +27,7 @@ Run the container in interactive mode (docker -it)
 $ maxiv-docker-browser -u "your-docker-registry-url" -r
 ```
 
+## Dependancies
+reqwest = "0.9.20"
+skim = "0.6.8"
+argparse = "0.2.2"
