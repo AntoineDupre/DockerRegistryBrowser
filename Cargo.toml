@@ -11,6 +11,7 @@ CargoLicense = "GPL3"
 [dependencies]
 reqwest = "0.9.20"
 skim = "0.6.8"
+argparse = "0.2.2"
 
 [package.metadata.rpm]
 buildflags = ["--release"]
