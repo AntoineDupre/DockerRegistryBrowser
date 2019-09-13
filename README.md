@@ -1,6 +1,7 @@
 # Docker registry browser
 
-Tool to browse the maxiv docker registry
+Tool to browse the maxiv docker registry.
+Demo: https://asciinema.org/a/FJBz87bL0ZXXQciLRSqk9ogwl
 
 ## How to install
 Simply with cargo:
