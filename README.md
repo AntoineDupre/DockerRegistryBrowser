@@ -1,7 +1,7 @@
 # Docker registry browser
 
-Tool to browse the maxiv docker registry.
-Demo: https://asciinema.org/a/FJBz87bL0ZXXQciLRSqk9ogwl
+Tool to browse a docker registry.
+
 
 
 ## How to install
